@@ -30,7 +30,7 @@ namespace array052523
                 nNome++;  
             }
             Console.WriteLine("Nomezinhos: ");
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < nome.Length; i++)
             {
                 Console.WriteLine(nome[i]);
             }
